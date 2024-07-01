@@ -1,8 +1,8 @@
 const pg = require('pg');
 
-const { Client } = pg;
+const { Cliente } = pg;
 
-const client = new Client({
+const cliente = new Cliente({
     user: 'postgres',
     password: 'reynor',
     host: 'localhost',
@@ -10,11 +10,11 @@ const client = new Client({
     database: 'postgres',
 });
 
-client.connect((err) => {
+cliente.connect((err) => {
     if (err) {
         throw err;
     }
     console.log('Base de datos conectada');
 });
 
-module.exports = client;
+module.exports = cliente;

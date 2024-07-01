@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Views"
   ],
-  "SelectedNode": "\\package-lock.json",
+  "SelectedNode": "\\Views",
   "PreviewInSolutionExplorer": false
 }
